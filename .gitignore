@@ -1,0 +1,18 @@
+# Archivos de caché de Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Archivos y carpetas de configuración de Django
+*.settings.py
+/local_settings.py
+/media/
+/static/
+/uploads/
+
+# Archivos y carpetas creados por el usuario
+venv/
+.idea/
+.vscode/
+*.sqlite3
